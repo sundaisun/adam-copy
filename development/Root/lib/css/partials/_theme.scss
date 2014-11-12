@@ -1,0 +1,927 @@
+#home {
+	width: 100%;
+	height: 1080px;
+	border-bottom-width: 1px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	margin-bottom: 30px;
+}
+
+#home h1{
+	padding-top: 20%;
+	font-family: 'BitRisc';
+	font-size: 15.2em;
+    font-weight: 100;
+    padding-right: 30px;
+    width: 100%;
+    text-align: right;
+}
+
+#home p {
+	font-family: 'BitRisc';
+	font-size: 4.5em;
+	margin-top:10%;    
+    left:0;
+    float: right;
+    display: block;
+	margin-right: 30px;
+}
+
+#rgb {
+	float: left;
+	width: 20px;
+	height: 1080px;
+	background: url('../../img/rgb.jpg') no-repeat;
+}
+
+@media (max-width: 1323px) {
+	#home {
+	width: 100%;
+	height: 700px;
+	border-bottom-width: 1px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	margin-bottom: 30px;
+}
+
+#home h1{
+	padding-top: 30%;
+	font-family: 'BitRisc';
+	font-size: 10em;
+    font-weight: 100;
+    padding-right: 30px;
+    width: 100%;
+    text-align: right;
+}
+
+#home p {
+	font-family: 'BitRisc';
+	font-size: 3em;
+	margin-top:10%;    
+    left:0;
+    float: right;
+    display: block;
+	margin-right: 30px;
+}
+
+#rgb {
+	float: left;
+	width: 20px;
+	height: 700px;
+	background: url('../../img/rgb_700.jpg') no-repeat;
+}
+}
+
+@media (max-width: 919px) {
+	#home {
+	width: 100%;
+	height: 500px;
+	border-bottom-width: 1px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	margin-bottom: 30px;
+}
+
+#home h1{
+	padding-top: 190px;
+	font-family: 'BitRisc';
+	font-size: 6em;
+    font-weight: 100;
+    padding-right: 30px;
+    width: 100%;
+    text-align: right;
+}
+
+#home p {
+	font-family: 'BitRisc';
+	font-size: 1.8em;
+	margin-top:10%;    
+    left:0;
+    float: right;
+    display: block;
+	margin-right: 30px;
+}
+
+#rgb {
+	float: left;
+	width: 20px;
+	height: 500px;
+	background: url('../../img/rgb_500.jpg') no-repeat;
+}
+}
+
+
+
+@media (max-width: 570px) {
+	#home {
+	width: 100%;
+	height: 500px;
+	border-bottom-width: 1px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	margin-bottom: 30px;
+}
+
+#home h1{
+	padding-top: 190px;
+	font-family: 'BitRisc';
+	font-size: 4em;
+    font-weight: 100;
+    padding-right: 30px;
+    width: 100%;
+    text-align: right;
+}
+
+#home p {
+	font-family: 'BitRisc';
+	font-size: 1.2em;
+	margin-top:10%;    
+    left:0;
+    float: right;
+    display: block;
+	margin-right: 30px;
+}
+
+#rgb {
+	float: left;
+	width: 20px;
+	height: 500px;
+	background: url('../../img/rgb_500.jpg') no-repeat;
+}
+}
+
+
+
+#ideation	{
+	background: url('../../img/ideation.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+	width: 100%;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#game_text	{
+	background: url('../../img/words.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+	width: 100%;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#anatomy {
+	border-top-style: solid;
+	border-top-color: #bababa;
+	border-top-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #bababa;
+	border-bottom-width: 2px;
+}
+
+#anatomy img {
+	width: 100%;
+ 	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#white_back	{
+	width: 100%;
+	height: 2500px;
+	background-color: white;
+}
+
+.characters_left {
+	width: 100%;
+	height: 600px;
+	float: left;
+	display: block;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+h3 {
+	font-weight: 100;
+}
+
+.characters_left ul {
+	font-family: 'BitRisc';
+	font-weight: 100;
+	font-size: 3em;
+	text-align: center;
+	float: left;
+	list-style: none;
+	margin-top: 160px;
+	margin-left: -25px;
+}
+
+.characters_left .long{
+	list-style: none;
+	text-transform: lowercase;
+}
+
+.characters_left li .long{
+	font-family: 'BitRisc_long';
+	font-weight: 100;
+	list-style: none;
+	text-transform: lowercase;
+	text-align: center;
+	margin-left: 55px;
+}
+
+.characters_left ul li {
+	margin-top: 50px;
+	text-transform: uppercase;
+	text-size: 3em;
+}
+
+.characters_left h3 {
+	font-family: 'BitRisc';
+	float: left;
+	margin-top: 289px;
+	font-size: 3em;
+	margin-left: 40px;
+	text-align: center;
+}
+
+.peren_left_left {
+	font-family: 'BitRisc';
+	float: left;
+	clear: right;
+	font-size: 30em;
+	color: grey;
+	margin-top: 220px;
+	display: block;
+}
+
+.peren_right_left {
+	font-family: 'BitRisc';
+	position: absolute;
+	font-size: 30em;
+	color: grey;
+	display: block;
+	margin-left: 900px;
+	margin-top: 220px;
+}
+
+.characters_right {
+	width: 100%;
+	height: 600px;
+	float: right;
+	display: block;
+}
+
+#right_container {
+	width: 1000px;
+	float: right;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+.characters_right ul {
+	font-family: 'BitRisc';
+	font-weight: 100;
+	font-size: 3em;
+	text-align: center;
+	float: right;
+	list-style: none;
+	margin-top: 160px;
+	margin-left: -25px;
+}
+
+.characters_right ul li {
+	margin-top: 50px;
+}
+
+.characters_right h3 {
+	font-family: 'BitRisc';
+	float: right;
+	margin-top: 289px;
+	font-size: 3em;
+	margin-right: 40px;
+}
+
+.peren_left_right {
+	font-family: 'BitRisc';
+	float: right;
+	font-size: 30em;
+	color: grey;
+	margin-top: 220px;
+	display: block;
+}
+
+.peren_right_right {
+	font-family: 'BitRisc';
+	font-size: 30em;
+	color: grey;
+	display: block;
+	margin-top: 220px;
+	float: left;
+}
+
+/*****************************************************************************************************************************************/
+@media (max-width: 1060px) {
+.characters_left {
+	width: 100%;
+	height: 600px;
+	float: left;
+	display: block;
+}
+
+.characters_left ul {
+	font-family: 'BitRisc';
+	font-weight: 100;
+	font-size: 2em;
+	text-align: center;
+	float: left;
+	list-style: none;
+	margin-top: 160px;
+	margin-left: -25px;
+}
+
+.characters_left .long{
+	list-style: none;
+	text-transform: lowercase;
+}
+
+.characters_left li .long{
+	font-family: 'BitRisc_long';
+	font-weight: 100;
+	list-style: none;
+	text-transform: lowercase;
+	text-align: center;
+	margin-left: 42px;
+}
+
+.characters_left ul li {
+	margin-top: 50px;
+	text-transform: uppercase;
+	text-size: 2em;
+}
+
+.characters_left h3 {
+	font-family: 'BitRisc';
+	float: left;
+	margin-top: 289px;
+	font-size: 2em;
+	margin-left: 40px;
+	text-align: center;
+}
+
+.peren_left_left {
+	font-family: 'BitRisc';
+	float: left;
+	clear: right;
+	font-size: 30em;
+	color: grey;
+	margin-top: 220px;
+	display: block;
+}
+
+.peren_right_left {
+	font-family: 'BitRisc';
+	position: absolute;
+	font-size: 30em;
+	color: grey;
+	display: block;
+	margin-left: 650px;
+	margin-top: 220px;
+}
+
+.characters_right {
+	width: 100%;
+	height: 600px;
+	float: right;
+	display: block;
+}
+
+#right_container {
+	width: 780px;
+	float: right;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+.characters_right ul {
+	font-family: 'BitRisc';
+	font-weight: 100;
+	font-size: 2em;
+	text-align: center;
+	float: right;
+	list-style: none;
+	margin-top: 160px;
+	margin-left: -25px;
+}
+
+.characters_right ul li {
+	margin-top: 50px;
+}
+
+.characters_right h3 {
+	font-family: 'BitRisc';
+	float: right;
+	margin-top: 289px;
+	font-size: 2em;
+	margin-right: 40px;
+}
+
+.peren_left_right {
+	font-family: 'BitRisc';
+	float: right;
+	font-size: 30em;
+	color: grey;
+	margin-top: 220px;
+	display: block;
+}
+
+.peren_right_right {
+	font-family: 'BitRisc';
+	font-size: 30em;
+	color: grey;
+	display: block;
+	margin-top: 220px;
+	float: left;
+}
+}
+
+/********************next resolution********************/
+@media (max-width: 814px) {
+	.characters_left {
+	width: 100%;
+	height: 400px;
+	display: block;
+}
+
+.characters_left ul {
+	font-family: 'BitRisc';
+	font-weight: 100;
+	font-size: 3em;
+	text-align: center;
+	list-style: none;
+	margin-top: 160px;
+	margin-left: 30px;
+}
+
+.characters_left .long{
+	list-style: none;
+	text-transform: lowercase;
+	margin-left: 30px;
+}
+
+.characters_left li .long{
+	font-family: 'BitRisc_long';
+	font-weight: 100;
+	list-style: none;
+	text-transform: lowercase;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.characters_left ul li {
+	margin-top: 50px;
+	text-transform: uppercase;
+	text-size: 3em;
+}
+
+.characters_left h3 {
+display: none;
+}
+
+.peren_left_left {
+	display: none;
+}
+
+.peren_right_left {
+	display: none;
+}
+
+.characters_right {
+	width: 100%;
+	height: 400px;
+	display: block;
+}
+
+#right_container {
+	width: 780px;
+	margin-right: 30px;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+.characters_right ul {
+	font-family: 'BitRisc';
+	font-weight: 100;
+	font-size: 3em;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+	margin-top: 160px;
+}
+
+.characters_right ul li {
+	margin-top: 50px;
+}
+
+.characters_right h3 {
+	display: none;
+}
+
+.peren_left_right {
+	display: none;
+}
+
+.peren_right_right {
+	display: none;
+}
+
+#white_back	{
+	width: 100%;
+	height: 1800px;
+	background-color: white;
+}
+
+}
+
+/********************next resolution********************/
+@media (max-width: 520px) {
+	.characters_left {
+	width: 100%;
+	height: 400px;
+	display: block;
+}
+
+.characters_left ul {
+	font-family: 'BitRisc';
+	font-weight: 100;
+	font-size: 2.2em;
+	text-align: center;
+	list-style: none;
+	margin-top: 160px;
+	margin-left: 30px;
+}
+
+.characters_left .long{
+	list-style: none;
+	text-transform: lowercase;
+	margin-left: 30px;
+}
+
+.characters_left li .long{
+	font-family: 'BitRisc_long';
+	font-weight: 100;
+	list-style: none;
+	text-transform: lowercase;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.characters_left ul li {
+	margin-top: 50px;
+	text-transform: uppercase;
+	text-size: 2.2em;
+}
+
+.characters_left h3 {
+display: none;
+}
+
+.peren_left_left {
+	display: none;
+}
+
+.peren_right_left {
+	display: none;
+}
+
+.characters_right {
+	width: 100%;
+	height: 400px;
+	display: block;
+}
+
+#right_container {
+	width: 780px;
+	margin-right: 30px;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+.characters_right ul {
+	font-family: 'BitRisc';
+	font-weight: 100;
+	font-size: 2.2em;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+	margin-top: 160px;
+}
+
+.characters_right ul li {
+	margin-top: 50px;
+}
+
+.characters_right h3 {
+	display: none;
+}
+
+.peren_left_right {
+	display: none;
+}
+
+.peren_right_right {
+	display: none;
+}
+
+#white_back	{
+	width: 100%;
+	height: 1800px;
+	background-color: white;
+}
+}
+
+/*****************************************************************************************************************************************/
+
+
+#xbox {
+	width: 50%;
+	background-color: $color-dark-green;
+	height: 600px;
+	display: block;
+	float: left;
+}
+
+#pacman {
+	width: 50%;
+	background-color: $color-yellow;
+	height: 600px;
+	display: block;
+	float: right;
+}
+
+#arcade {
+	width: 50%;
+	background-color: $color-light-blue;
+	height: 600px;
+	float: left;
+	display: block;
+	float: right;
+	overflow: hidden;
+}
+
+#dreamcast {
+	width: 50%;
+	background-color: $color-orange;
+	height: 600px;
+	display: block;
+	float: left;
+}
+
+h2 {
+	font-family: 'BitRisc';
+	font-weight: 100;
+	font-size: 3em;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#dc img {
+	width: 100%;
+	float: left;
+}
+
+#inspiration_white p {
+	font-family: 'Open Sans', sans-serif;
+	width: 80%;
+	padding-top: 70px;
+	padding-bottom: 30px;
+	font-size: 1.5em;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 200%;
+	font-weight: 100;
+}
+
+@media (max-width: 941px) {
+	#dc img {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#inspiration_white p {
+	font-family: 'Open Sans', sans-serif;
+	width: 80%;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	font-size: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+}
+
+
+#spacer	{
+	margin-top: 550px;
+}
+
+#container_posters	{
+	width: 100%;
+	display: block;
+	height: 900px;
+}
+
+@media (max-width: 1350px) {
+
+#xbox {
+	width: 100%;
+	background-color: $color-dark-green;
+	height: 600px;
+	display: block;
+	float: left;
+}
+
+#pacman {
+	width: 100%;
+	background-color: $color-yellow;
+	height: 600px;
+	display: block;
+	float: right;
+}
+
+#arcade {
+	width: 100%;
+	background-color: $color-light-blue;
+	height: 600px;
+	float: left;
+	display: block;
+	float: right;
+}
+
+#dreamcast {
+	width: 100%;
+	background-color: $color-orange;
+	height: 600px;
+	display: block;
+	float: left;
+}
+
+#pacman img {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 90px;
+}
+
+}
+
+#xbox img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 80px;
+}
+
+#pacman img {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 90px;
+	overflow: hidden;
+}
+
+@media (max-width: 1600px) {
+	#pacman img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 25%;
+	width: 80%;
+}
+}
+
+#arcade img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 80px;
+}
+
+#dreamcast img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 120px;
+}
+
+@media (max-width: 984px) {
+	#dreamcast img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 90%;
+}
+}
+
+@media (max-width: 670px) {
+	#dreamcast img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 30%;
+	width: 90%;
+}
+}
+
+#area_use_header {
+	width: 100%;
+	height: 60px;
+	display: block;
+	z-index: 10;
+	position: absolute;
+	background-color: white;
+	margin-top: 1200px;
+}
+
+#center	{
+	border-radius: 300px;
+	width: 300px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6px;
+	display: block;
+	background-color: white;
+}
+
+#center h4 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding-top: 47px;
+	font-weight: 300;
+	font-size: 30px;
+}
+
+@media (max-width: 1000px) {
+	#area_use_header {
+	width: 100%;
+	height: 60px;
+	display: block;
+	z-index: 10;
+	position: absolute;
+	background-color: white;
+	margin-top: 3000px;
+}
+}
+
+@media (max-width: 1350px) {
+	#area_use_header {
+	width: 100%;
+	height: 60px;
+	display: block;
+	z-index: 10;
+	position: absolute;
+	background-color: white;
+	margin-top: 2400px;
+}
+}
+
+
+#staging {
+	width: 100%;
+	display: block;
+}
+
+#staging img {
+	width: 100%;
+ 	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	z-index: -10;
+}

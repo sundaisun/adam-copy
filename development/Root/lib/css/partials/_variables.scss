@@ -1,0 +1,69 @@
+$gutter-size: 10px;
+$column-length: 12;
+
+// Sass Map, named indexes
+$container-width:(
+	xs:0,
+	sm:480px,
+	md:640px,
+	lg:960px,
+	xl:1200px,
+	mx:100%
+	);
+
+// Sass List, linear array
+$size-shortnames:("xs","sm","md","lg","xl");
+
+
+// map-get($container-width,"xs");
+
+$container-xs-width:map-get($container-width,"xs");
+$container-sm-width:640px;
+$container-md-width:800px;
+$container-lg-width:1000px;
+$container-xl-width:1200px;
+
+$max-container-width:map-get($container-width,"mx");
+// $color-red: #e11;
+// $color-warning: $color-red;
+// $color-yellow: rgb(240,240,40);
+// $color-alert: $color-yellow;
+// $color-blue: #03c;
+// $color-hero: $color-blue;
+// $color-green: #00FF00;
+// $color-confirm: $color-green;
+
+
+@mixin make-font-face($font-name,$font-src,$font-format:'ttf') {
+	@font-face {
+	  font-family: $font-name;
+	  src: url(#{$font-src}) format(#{$font-format});
+	}
+}
+
+
+$full-container-width: 100%;
+
+$color-red: #ed1f24;
+$red-accent: $color-red;
+
+$color-green: #6cbd44;
+$green-accent: $color-green;
+
+$color-blue: #3e52a3;
+$blue-accent: $color-blue;
+
+$color-dark-green: #177d3e;
+$xbox-green: $color-dark-green;
+
+$color-yellow: #f2ba19;
+$pacman-yellow: $color-yellow;
+
+$color-light-blue: #69addf;
+$arcade-blue: $color-light-blue;
+
+$color-light-blue: #69addf;
+$arcade-blue: $color-light-blue;
+
+$color-orange: #f15c22;
+$dreamcast: $color-orange;

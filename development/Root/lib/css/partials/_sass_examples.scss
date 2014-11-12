@@ -1,0 +1,73 @@
+
+
+// If statement
+@if(1<=1){
+	// code to do
+}
+
+// Operators
+/* 
+Comparison
+	< less than
+	> greater than
+	<= less than or equal to
+	>=
+	== is equal to
+
+Assignment
+	= assign the right value to the left side
+	+= example: $i += 1 is the same as $i = $i + 1
+	-=
+	*=
+	/=
+
+Math
+	+ addition
+	- subtraction
+	* multiplication
+	/ division
+*/
+
+
+// if else if else
+
+@if($num==0) {
+	// code to do
+} @else if( $num > 5 ) {
+	// code to do
+} @else if($num<5) {
+	// code to do
+} @else {
+	// code to do
+}
+
+
+// For loop
+
+@for $i from 1 through 9 {
+	// do code here
+	width: $i * 100 + "px";
+}
+
+// Each loop
+
+@each $key, $value in $container-width {
+	.container-#{$key}-width: $value;
+}
+
+
+// Mixins
+@mixin my-mixin {
+	.container {
+		width:50px;
+	}
+}
+
+@mixin make-container($num:800) {
+	.container {
+		width: $num + "px";
+	}
+}
+
+@include make-container(600);
+

@@ -1,0 +1,68 @@
+@mixin container-make($prefix:''){
+	.container {
+		@include center-in-parent;
+
+		@if($prefix=='xl'){
+			width:map-get($container-width,$prefix);
+		} @else if($prefix=='lg'){
+			width:map-get($container-width,$prefix);
+		} /* @else {
+			width: calc(100% - #{$gutter-size});
+		} */
+	}
+}
+
+// .columns {
+// 	float: left;
+// 	padding-left:$gutter-size / 2;
+// 	padding-right:$gutter-size / 2;
+// }
+
+@function class-stack($type,$middlefix,$size,$list:'') {
+	@for $i from 1 through $size {
+		@if($list!='') {
+			$list: "#{$list}, ";
+		}
+		$list: "#{$list}.#{$type}#{$middlefix}-#{$i}";
+	}
+	@return $list;
+}
+
+@mixin column-make(){
+	$list:'';
+	@each $key,$value in $container-width {
+			$list: class-stack('col',"-#{$key}",$column-length,$list);
+	}
+	#{$list} {
+		float: left;
+		/* padding-left: $gutter-size / 2;
+		padding-right: $gutter-size / 2; */
+	}
+}
+
+@mixin columns-make($prefix:''){
+	@if($prefix !=''){
+		$prefix: "-#{$prefix}";
+	}
+	
+	@for $i from 1 through $column-length {
+		.col#{$prefix}-#{$i} {
+			width: percentage( $i / $column-length );
+		}
+	}
+}
+
+@mixin offset-make($prefix:''){
+	@if($prefix !=''){
+		$prefix: "-#{$prefix}";
+	}
+	
+	@for $i from 1 through $column-length {
+		.offset#{$prefix}-#{$i} {
+			margin-left: percentage( ($i - 1) / $column-length );
+		}
+	}
+}
+
+
+@include columns-make;
